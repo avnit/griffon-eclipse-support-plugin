@@ -34,3 +34,17 @@ Scripts
 -------
  * **eclipse-update** - re-generates the contents of the .classpath file.
 
+<!-- ARCH-DIAGRAM:START -->
+
+## Architecture
+
+> Auto-generated architecture diagram. See [`docs/context-map.md`](docs/context-map.md) for the full context map (core application, containers/cloud, and database connections).
+
+```mermaid
+flowchart TD
+  User([User / Client])
+  App["griffon-eclipse-support-plugin"]
+  User --> App
+```
+
+<!-- ARCH-DIAGRAM:END -->
